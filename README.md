@@ -1,16 +1,16 @@
-# 📚 Video Sorter, Re-Encoder, & Duplicate Finder
+# Video Sorter, Re-Encoder, & Duplicate Finder
 
-## ✨ Description
+## Description
 
 Welcome to **Video Sorter, Re-Encoder, & Duplicate Finder**! This Python program is designed to help you manage your video files efficiently. It includes features for sorting videos based on resolution, re-encoding them using HEVC codec with optional GPU acceleration, and identifying duplicate files by comparing file size.
 
-## 🚀 Features
+## Features
 
 - **Video Sorting**: Sorts videos into folders based on their resolution.
 - **Re-Encoding**: Re-encodes videos using the HEVC codec for better efficiency.
 - **Duplicate Detection and Removal**: Identifies and deletes duplicate video files by comparing file sizes.
 
-## 🔧 Installation
+## Installation
 
 To get started, follow these steps:
 
@@ -25,7 +25,7 @@ To get started, follow these steps:
    pip install -r requirements.txt
    ```
 
-## 📦 Usage
+## Usage
 
 ### Sorting Videos
 
@@ -51,15 +51,15 @@ To identify and delete duplicate files by size, run:
 python duplicate.py /path/to/videos
 ```
 
-## 🧰 Configuration (if applicable)
+## Configuration (if applicable)
 
 No specific configuration is required for this script. Ensure you have the necessary permissions to read/write in the specified directories.
 
-## 🧪 Tests
+## Tests
 
 Tests are currently not available for this project. We recommend manually testing each script as needed.
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 video_sorter_reencoder/
@@ -70,11 +70,11 @@ video_sorter_reencoder/
 └── README.md
 ```
 
-## 👥 Contributing
+## Contributing
 
 Contributions are welcome! Please read our [CONTRIBUTING](CONTRIBUTING.md) guidelines before submitting a pull request.
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
